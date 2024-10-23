@@ -1,0 +1,56 @@
+name: todo_app
+description: "A new Flutter project."
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core packages
+  cupertino_icons: ^1.0.8
+  l: ^4.0.2
+
+  # UI and responsive design
+  device_preview: ^1.2.0
+  flutter_screenutil: ^5.9.3
+  go_router: ^14.2.7
+
+  # Data management and databases
+  sqflite: ^2.3.3+1
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Notifications and time
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+
+  # State management
+  flutter_bloc: ^8.1.6
+
+  # Code generation
+  freezed_annotation: ^2.4.4
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  # Code generation tools
+  build_runner: ^2.4.12
+  freezed: ^2.5.7
+  hive_generator: ^2.0.1
+
+
+flutter:
+  uses-material-design: true
